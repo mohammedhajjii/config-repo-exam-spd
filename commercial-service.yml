@@ -1,0 +1,16 @@
+spring:
+  # database:
+  datasource:
+    url: jdbc:h2:mem:commercial-db
+  h2:
+    console:
+      enabled: true
+
+# port:
+server:
+  port: 8081
+
+# resolve IP address from hostname:
+eureka:
+  instance:
+    prefer-ip-address: true
